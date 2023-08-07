@@ -1,0 +1,1 @@
+#!/bin/bashfind -type f -name "*gif" | rev | cut -d ',' -f | rev |lc_all=c sort -f
